@@ -42,7 +42,7 @@ On part du principe que c'est un début de nom ou de prénom donc on cherche la 
 
 15. SELECT * FROM users WHER city = "Marseille" AND age = 18 OR age > 18 
     AND age < 30 OR age = 30;   
-On vetu trouver tous les users habitant à MArseille avec 18 <= date >= 30
+On vetu trouver tous les users habitant à Marseille avec 18 <= date >= 30
 
 16. SELECT * FROM users
 ORDER BY age DESC;
